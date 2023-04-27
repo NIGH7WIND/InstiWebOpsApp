@@ -8,23 +8,25 @@
     <link href='https://fonts.googleapis.com/css?family=Italiana' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <title>Portfolio-Website</title>
 </head>
 <body>
-    <div class="container">
+    <div id="home" class="container">
         <div class="header">
             
             <div class="nav_left">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#digital-art">Digital Art</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
             
-            <div class="nav_center">
+            <!-- <div class="nav_center">
                 <h1>Sahal A</h1>
-            </div>
+            </div> -->
 
             <div class="nav_right">
                 <ul><li><a href="https://drive.google.com/file/d/1WjCWguUg-F58nQZi7wvyQUaHJzrQmICO/view?usp=sharing">Download CV</a></li></ul>
@@ -38,24 +40,24 @@
                 <img src="./images/Cutout.png" class="cutout">
             </div>
             <div class="about_btn">
-                <button class="circle-button">
+                <a href="#about-me"><button class="circle-button">
                     <span class="arrow">→</span>
-                </button>
+                </button></a>
                 <label>About Me</label>
             </div>
-        </div>
-        <div class="social-icons">
-            <a href="https://wa.me/9037782638">
-                <i class="fa fa-whatsapp" style="font-size: 5vh;"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/sahal-a-73b195206/">
-                <i class="fa fa-linkedin-square" style="font-size: 5vh;"></i>
-            </a>
-        </div>
-        <div class="white-rectangle">
+            <div class="social-icons">
+                <a href="https://wa.me/9037782638">
+                    <i class="fa fa-whatsapp" style="font-size: 5vh;"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sahal-a-73b195206/">
+                    <i class="fa fa-linkedin-square" style="font-size: 5vh;"></i>
+                </a>
+            </div>
         </div>
     </div>
-	<section class="about">
+    <div class="white-rectangle">
+    </div>
+	<section id="about-me" class="about">
 		<div class="main">
 			<img src="./images/Sahal S.png">
 			<div class="about-text">
@@ -65,7 +67,9 @@
 			</div>
 		</div>
 	</section>
-    <div class="digitalart">
+    <div class="white-rectangle">
+    </div>
+    <div id="digital-art" class="digitalart">
         <h2>Digital Art</h2>
         <div class="grid">
 			<div class="row">
