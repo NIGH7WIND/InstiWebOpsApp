@@ -256,6 +256,7 @@ ul li a:hover::before {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+    user-select: none;
 }
 
 .about-text h2{
@@ -275,6 +276,7 @@ ul li a:hover::before {
 
 .about-text p{
 	color: black;
+    user-select: text;
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 18px;
@@ -298,6 +300,7 @@ ul li a:hover::before {
     flex-wrap: wrap;
     width: 100%;
     margin: 10px 0;
+    filter: drop-shadow(20px 20px 4px rgba(0, 0, 0, 0.25));
 }
 
 .image {
@@ -309,6 +312,7 @@ ul li a:hover::before {
     height: 200px;
     background-color: #f1f1f1;
     border: 1px solid #ccc;
+    border-radius: 10%;
 }
 
 .image img {
