@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #D9D9D9;
+}
+
 .container {
     width: 100%;
     height: 90vh;
@@ -37,15 +45,16 @@
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-size: 18px;
 }
 
-.nav_center {
-    position: absolute;
+/* .nav_center {
     font-family: 'Playfair Display';
     font-style: ;
     top: 0;
-    left: 50%;
-}
+    font-size: 18px;
+    margin-bottom: 10px;
+} */
 
 .nav_right ul{
     list-style: none;
@@ -56,6 +65,7 @@
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-size: 18px;
 }
 
 /* Custom Link */
@@ -105,7 +115,7 @@ ul li a:hover::before {
     font-family: Italiana;
     font-style: normal;
     font-weight: 500;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 .cutout {
@@ -156,13 +166,11 @@ ul li a:hover::before {
     justify-content: left;
     padding: 0px;
     user-select: none;
-
     gap: 10px;
-    position: absolute;
-    width: 50px;
-    bottom: 30%;
-    right: 2.25vw;
     text-decoration: none;
+    position: relative;
+    left: 20%;
+    top: 70%;
 }
 
 .social-icons i{
@@ -173,7 +181,7 @@ ul li a:hover::before {
     width: 100%;
     height: 50px;
     background-color: white;
-    position: absolute;
+    position: relative;
     top: 90%;
 }
 
